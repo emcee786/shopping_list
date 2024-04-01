@@ -1,0 +1,170 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: sans-serif
+}
+
+body{
+    /* background-color: Woolworths; */
+    background-color: #007837;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-list-item .btn-container a{ 
+    color: white
+}
+
+.shop-container{
+    width:  450px;
+    height: auto;
+    /* border: 1px solid white;| */
+    padding: 0px 20px 0px 20px;
+}
+
+.shop-search{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-search form{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid black;| */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shop-list{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-color: white;
+    padding-top: 10px !important;
+    border-radius: 10px;
+    padding: 10px 10px 20px 10px;
+}
+
+.shop-search form input, .input, select{
+    border: 1px solid silver;
+    height: 50px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.myinput{
+    border: 1px solid silver;
+    height: 50px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+select{
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    height: 40px;
+}
+
+input:focus, select:focus{
+    outline: 1px solid #39464e;
+}
+
+.shop-search form button{
+    height: 50px;
+    width: 70px;
+    padding: 0px 10px 0px 10px;
+    background-color: #39464e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shop-list-item{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid silver;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.shop-list-item .btn-container{
+    display: flex;
+
+}
+.shop-list-item .edit{
+    margin-right: 10px;
+}
+.shop-list-item .edit, .shop-list-item .del{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #39464e;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.shop-list .task{
+    display: flex;
+}
+
+.shop-list .task input{
+    margin-right: 10px;
+    width: 20px;
+}
+
+.shop-list-itemhover {
+    background-color: #f8f9fa; 
+}
+
+/* delete container */
+.delete-container{
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-container{
+    margin-top: 20px;
+    display: flex;
+}
+
+.btn-cancel, .btn-delete{
+    width: 100px;
+    height: 50px;
+    background-color: #39464e;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    
+}
+
